@@ -1,0 +1,11 @@
+.barra-de-navegacion {
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+        li {
+            display: inline-block;
+            padding-inline: 4rem;
+        }
+    }
+}

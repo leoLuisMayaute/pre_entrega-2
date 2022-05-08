@@ -1,0 +1,6 @@
+.barra-de-navegacion {
+  display: flex;
+  justify-content: space-between; }
+  .barra-de-navegacion ul li {
+    display: inline-block;
+    padding-inline: 4rem; }
