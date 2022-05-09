@@ -1,6 +1,16 @@
 .barra-de-navegacion {
   display: flex;
-  justify-content: space-between; }
-  .barra-de-navegacion ul li {
-    display: inline-block;
-    padding-inline: 4rem; }
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #111;
+  align-items: center; }
+  .barra-de-navegacion img {
+    display: none;
+    width: 100%; }
+  .barra-de-navegacion ul {
+    padding-block: 2rem; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }

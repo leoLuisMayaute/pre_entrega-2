@@ -1,11 +1,16 @@
 .barra-de-navegacion {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #111;
+    align-items: center;
 
-    ul{
-        li {
-            display: inline-block;
-            padding-inline: 4rem;
-        }
+    img {
+        display: none;
+        width: 100%;
+    }
+
+    ul {
+        padding-block: 2rem;
     }
 }
