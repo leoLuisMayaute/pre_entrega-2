@@ -21,14 +21,10 @@
 }
     .footer-contenedor {
     flex-direction: row;
+    justify-content: space-around;
 
     img {
         padding-inline: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
     }
 }
 }
