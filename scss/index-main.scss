@@ -21,10 +21,11 @@
         margin: auto;
     }
     h1 {
-        font-size: 10rem;
+        font-size: 5rem;
+        margin-block: 1em;
     }
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -64,14 +65,34 @@
     }
     p {
         text-align: justify;
+        padding-block: 1em;
     }
+    .contenido {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        grid-gap: 1em;
 
-    .container-xxl {
-        padding: 0;
-        margin: 0 auto;
-    }
+        grid-template-areas:
+        "photo-gallery",
+        "historia-juego";
 
-    .photo-gallery {
-        margin: auto 0;
+        .photo-gallery {
+            grid-area: "photo-gallery";
+            img {
+                display: block;
+                width: 100%;
+                margin-block: 2em;
+            }
+        }
+
+        .historia-juego {
+            grid-area: "historia-juego";
+            margin: auto 0;
+        }
+
     }
+    
 }
+
