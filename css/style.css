@@ -160,7 +160,7 @@ body {
 .descripcion-equipos .contenedor-equipo {
   width: 80%;
   max-width: 1500px;
-  margin: 2em auto; }
+  margin: auto; }
   .descripcion-equipos .contenedor-equipo h3 {
     text-align: center;
     font-size: 3rem;
@@ -172,3 +172,17 @@ body {
   .descripcion-equipos .contenedor-equipo img {
     display: block;
     width: 100%; }
+  .descripcion-equipos .contenedor-equipo .contenedor-boton {
+    text-align: center; }
+    .descripcion-equipos .contenedor-equipo .contenedor-boton .boton-equipos {
+      margin: 2em 0;
+      padding: 0.8em;
+      border-radius: 0.8rem;
+      background-color: #bdfd5f; }
+      .descripcion-equipos .contenedor-equipo .contenedor-boton .boton-equipos:hover {
+        transform: scale(1.05); }
+      .descripcion-equipos .contenedor-equipo .contenedor-boton .boton-equipos a {
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        color: red; }
